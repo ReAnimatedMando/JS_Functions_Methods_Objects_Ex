@@ -43,3 +43,17 @@ p + h2 {
     margin: 10px 0 0 0;
 }
 
+/* message under the logo */
+
+#message {
+    float: left;
+    clear: left;
+    background-color: #ffb87a;
+    color: #1e1b1e;
+    width: 170px;
+    padding: 18px 30px;
+    text-align: center;
+}
+
+/* black bar across the right hand side of the page */
+
