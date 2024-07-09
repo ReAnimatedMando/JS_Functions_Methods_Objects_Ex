@@ -71,3 +71,67 @@ p + h2 {
 
 /* details in the black bar */
 
+#hotelName {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 120%;
+    margin-top: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+}
+
+#hotel1 {
+    margin-top: 1em;
+    border-top: 1px solid #fff;
+    padding-top: 1em;
+}
+
+#hotel2 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1em;
+}
+
+#rooms {
+    font-size: 440%;
+    color: #ffb87a;
+    display: inline-block;
+    margin: 0;
+}
+
+#roomRate {
+    text-decoration: line-through;
+    display: inline-block;
+    float: left;
+    padding-top: 10px;
+}
+
+#specialRate {
+    font-size: 440%;
+    color: #ffb87a;
+    display: inline-block;
+    padding: 10px 0 20px 0;
+    margin: 0;
+}
+
+#offerEnds {
+    text-transform: uppercase;
+    color: #ffb87a;
+    font-size: 75%;
+}
+
+.true, .fales {
+    padding: 0 50px 0 50px;
+    line-height: 28px;
+    text-align: left;
+    background-image: url(Images/check-cross.png);
+    background-position: 120px 0;
+    background-repeat: no-repeat;
+}
+
+.false {
+    background-position: 120px -28px;
+}
+
+/* footer */
+
