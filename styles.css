@@ -4,5 +4,25 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-    
+    background-color: #fff;
+    background: url(Images/travelworthy-backdrop.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
+
+h1 {
+    background: #1e1b1e url(Images/travelworthy-logo.gif) no-repeat;
+    width: 230px;
+    height: 180px;
+    float: left;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+}
+
+
