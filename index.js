@@ -34,5 +34,21 @@
     specialRate.textContent = '$' + hotel.offerPrice();
     // Write offer price
 
-    
+    // PART TWO: CALCULATE AND WRITE OUT THE EXPIRY DETAILS FOR THE OFFER
+    let expiryMsg;
+    // Message displayed to users
+    let today;
+    // Today's date
+    let elEnds;
+    // The element that shows the message about the offer ending
+
+    function offerExpires(today) {
+        // Declare variables within the function for local scope
+        let weekFromToday, day, date, month, year, dayNames, monthNames;
+
+        // Add 7 days time (added in milliseconds)
+        weekFromToday = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
+
+        
+    }
 })
