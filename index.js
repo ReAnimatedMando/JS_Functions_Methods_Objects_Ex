@@ -18,5 +18,14 @@
         }
     };
 
-    
+    // Write out the hotel name, standard rate, and the special rate
+    let hotelName, roomRate, specialRate;
+    // Declare variables
+
+    hotelName = document.getElementById('hotelName');
+    // Get elements
+    roomRate = document.getElementById('roomRate');
+    specialRate = document.getElementById('specialRate');
+
+    hotelName.textContent = hotel.name;
 })
